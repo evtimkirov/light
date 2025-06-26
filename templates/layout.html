@@ -1,0 +1,39 @@
+{% load static %}
+{% load navigation_tags %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Light - {% block title%}{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'dist/bundle.css' %}">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="{% url 'homepage' %}">Light</a>
+    <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item {{ is_active }}">
+          <a class="nav-link" href="{% url 'terminals' %}">Terminals </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container">
+    {% block content %}{% endblock %}
+</div>
+<script type="module" src="{% static 'dist/bundle.js' %}" defer></script>
+</body>
+</html>
