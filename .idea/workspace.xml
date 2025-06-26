@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3fb6e9b0-3106-4b78-b6c6-ab8a488878cd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/accessories/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/accessories/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/accessories/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/accessories/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/accessories/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/accessories/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/accessories/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/accessories/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/terminals/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/terminals/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/terminals/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/terminals/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/terminals/migrations/0002_terminal_created_at_terminal_updated_at.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/terminals/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/terminals/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/terminals/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/terminals/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/terminals/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/terminals/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/light/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/light/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/light/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/light/templatetags/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/light/templatetags/navigation_tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/light/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/light/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/light/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/dist/bundle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/dist/bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/terminals/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/terminals/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2yu0KbuEDwYIs7OfPOjj3xkeimC" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl.localhost/Ubuntu/var/www/light/light&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="\\wsl.localhost\Ubuntu\var\www\light\light" />
+      <recent name="\\wsl.localhost\Ubuntu\var\www\light\templates" />
+      <recent name="\\wsl.localhost\Ubuntu\var\www\light" />
+      <recent name="\\wsl.localhost\Ubuntu\var\www\light\light\apps" />
+      <recent name="\\wsl.localhost\Ubuntu\var\www\light\apps" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl.localhost\Ubuntu\var\www\light\light" />
+      <recent name="\\wsl.localhost\Ubuntu\var\www\light" />
+      <recent name="\\wsl.localhost\Ubuntu\var\www\light\templates" />
+      <recent name="\\wsl.localhost\Ubuntu\var\www\light\light\templatetags" />
+      <recent name="\\wsl.localhost\Ubuntu\var\www\light\apps" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-PY-251.26094.141" />
+        <option value="bundled-python-sdk-9f8e2b94138c-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26094.141" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3fb6e9b0-3106-4b78-b6c6-ab8a488878cd" name="Changes" comment="" />
+      <created>1750669087901</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750669087901</updated>
+      <workItem from="1750669089030" duration="3081000" />
+      <workItem from="1750672258400" duration="6264000" />
+      <workItem from="1750755669709" duration="7538000" />
+      <workItem from="1750926050571" duration="3934000" />
+      <workItem from="1750933516180" duration="124000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="SHOW_PATCH_IN_EXPLORER" value="false" />
+  </component>
+</project>
