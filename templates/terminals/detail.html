@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+{% block title %}Terminal details{% endblock %}
+{% block content %}
+<h1>{{ terminal.name }} - details</h1>
+<ul>
+    <li>Description: {{ terminal.description }}</li>
+    <li>Price: {{ terminal.price }}</li>
+    <li>In stock:
+    {% if terminal.in_stock %}
+        Yes
+    {% else %}
+        No
+    {% endif %}
+    </li>
+    {% if terminal.accessories.exists %}
+    <li>
+        <ul>
+        {% for accessory in terminal.accessories.values %}
+            <li>{{ accessory.name }} - {{ accessory.price }} $</li>
+        {% endfor %}
+        </ul>
+    </li>
+    {% endif %}
+</ul>
+{% endblock %}
