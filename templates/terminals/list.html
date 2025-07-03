@@ -10,6 +10,7 @@
     {% endfor %}
 </ul>
 <div class="pagination">
+{% if terminals %}
     {% if terminals.has_previous %}
         <a href="?page={{ terminals.previous_page_number }}">Previous</a>
     {% endif %}
@@ -19,5 +20,8 @@
     {% if terminals.has_next %}
         <a href="?page={{ terminals.next_page_number }}">Next</a>
     {% endif %}
+{% else %}
+    No available terminals.
+{% endif %}
 </div>
 {% endblock %}
