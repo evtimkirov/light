@@ -1,26 +1,23 @@
 # Light project
-Project for terminals and their accessories
+Project for terminals and their accessories.
 
 ## About the project
-The project aims to enhance my skills and capabilities using Python and the Django framework. Therefore, it can contain unnecessary functionalities or libraries, but they are used for the tests.
+The project aims to enhance my skills and capabilities using Python and the Django framework. Therefore, it may contain unnecessary functionalities or libraries, but they are used for testing purposes.
 
 ## How to install
-* Install the needed packages following the requirements.txt file
-   * Create your env and activate with the following command `source env/bin/acticate` 
-   * Run `pip install -r requirements.txt`
-* Create the database tables
-   * Run `python manage.py migrate` 
-* Add a superuser for the admin panel
-   * Run `python manage.py cretesuperuser`
-* Install the JS resources using Webpack
-   * Run `npm install && npm run dev` (`npm run prod` for production environment)
-* Build the project server
-   * Run `python manage.py runserver`
+### Run the following commands
+* `python -m venv env` // Create a virtual environment
+* `source env/bin/activate` _(for Ubuntu)_ // Activate the virtual environment
+* `pip install -r requirements.txt` // Install the needed dependencies
+* `python manage.py migrate` // Apply database migrations
+* `python manage.py createsuperuser` // Create an admin user
+* `npm install && npm run dev` (`npm run prod` for production) // Install frontend dependencies and build assets
+* `python manage.py runserver` // Run the project server
 
 ## What contains
 * Admin panel for users, user groups, terminals (with accessories)
-* Public part for listing the terminals with their accessors (if exist)
-* API terminal endpoints
+* Public part for listing terminals with their accessories (if any)
+* API endpoints for terminals
 
 ## Implementation
 * Using Webpack for the resources - Bootstrap 5, CSS, etc
