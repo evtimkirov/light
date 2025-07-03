@@ -6,8 +6,16 @@ The project aims to enhance my skills and capabilities using Python and the Djan
 
 ## How to install
 * Install the needed packages following the requirements.txt file
+   * Create your env and activate with the following command `source env/bin/acticate` 
+   * Run `pip install -r requirements.txt`
+* Create the database tables
+   * Run `python manage.py migrate` 
+* Add a superuser for the admin panel
+   * Run `python manage.py cretesuperuser`
 * Install the JS resources using Webpack
    * Run `npm install && npm run dev` (`npm run prod` for production environment)
+* Build the project server
+   * Run `python manage.py runserver`
 
 ## What contains
 * Admin panel for users, user groups, terminals (with accessories)
